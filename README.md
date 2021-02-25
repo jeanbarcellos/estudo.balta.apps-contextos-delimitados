@@ -247,3 +247,16 @@ Geralmente a DISTRIBUIÇÃO DE CERTIFICADOS PARA EVENTOS é um ponto muito crít
 
 GARNATINDO QUE A UNICIDADE SERÁ PRESERVADA EM TODO O CÍCLO DE
 VIDA DE UMA ENTIDADE?
+
+## 2.4 Implementação
+
+_O agrupamento de entidades e objetos de valor em um agregado com um limite consistente e cuidadosamente trabalhado pode parecer à primeira vista como um trabalho fácil, mas entre todas as orientações táticas do DDD, esse padrão é um dos menos bem compreendidos._
+
+Geralmente a DISTRIBUIÇÃO DE CERTIFICADOS PARA **EVENTOS** é um ponto muito crítico: cadastro, confecção, emissão são áreas que demandam muita atenção. Falhas em algum processo de alguma dessas áreas podem comprometer o prazo de entrega destes certificados, deteriorando assim a relação entre Organização e participantes, bem como comprometendo a imagem do evento perante seu público futuro. Sendo assim, criar tecnologias que promovam agilidade, segurança e transparência para tal processo seria de grande valia para o setor de eventos.
+
+## ENTENDENDO AGREGADORES REGRAS
+
+- Modelo de invariantes verdadeiros em limites de consistência
+  - (consistência transacional).
+- Modele Agregadores pequenos
+- Referencie outros agregadores por Identidade
