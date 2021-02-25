@@ -1,15 +1,14 @@
-﻿using System;
-
-namespace Cadastro.Core.Domain.Model.Organizadores
+﻿namespace Cadastro.Core.Domain.Model.Organizadores
 {
     public class Organizador
     {
-        public Guid Id { get; private set; }
+        public OrganizadorId Id { get; private set; }
         public string Nome { get; set; }
+        public NomeCompleto Responsavel { get; set; }
 
-        public Organizador()
+        public Organizador(OrganizadorId id)
         {
-            Id = Guid.NewGuid();
+            Id = id;
         }
     }
 }

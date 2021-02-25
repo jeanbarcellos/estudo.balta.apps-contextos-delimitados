@@ -231,3 +231,19 @@ Geralmente a DISTRIBUIÇÃO DE CERTIFICADOS PARA EVENTOS é um ponto muito crít
   - verificação de integridade!
 
 Como garnatir que a unicidade é preservada em todo o cíclo de vida de uma entidade?
+
+## 2.3 Objetos de Valor
+
+_Objetos de valor são um bloco vital do **DDD**. Exemplos comuns de modelagem destes objetos são numeros, textos, data, hora, objetos de composição (nome e sobrenome)_
+
+Geralmente a DISTRIBUIÇÃO DE CERTIFICADOS PARA EVENTOS é um ponto muito crítico: cadastro, confecção, emissão são áreas que demandam muita atenção. Falhas em algum processo de alguma dessas áreas podem comprometer o **PRAZO DE ENTREGA** destes certificados, deteriorando assim a relação entre Organização e **PARTICIPANTES**, bem como comprometendo a imagem do evento perante seu público futuro. Sendo assim, criar tecnologias que promovam agilidade, segurança e transparência para tal processo seria de grande valia para o setor de eventos.
+
+### MAS NÃO SÓ ISSO
+
+- Fáceis de criar, testar, usar, otimizar e manter!
+- Imutabilidade
+- Integração Minimalista.
+- devemos nos esforçar para modelar objetos usando os valores em vez de entidades sempre que possível.
+
+GARNATINDO QUE A UNICIDADE SERÁ PRESERVADA EM TODO O CÍCLO DE
+VIDA DE UMA ENTIDADE?
