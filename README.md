@@ -11,6 +11,7 @@ Instrutor:
 Referências:
 
 - https://balta.io/cursos/construindo-aplicacoes-em-contextos-delimitados
+- https://www.infoq.com/br/presentations/bounded-context-e-cqrs-na-evolucao-de-aplicacoes-dotnet-legadas/
 
 <br>
 <br>
@@ -36,6 +37,8 @@ Referências:
 
 <br>
 <hr>
+
+**Anotações**
 
 ## 1.1 Fundamentos
 
@@ -147,3 +150,36 @@ _Imagem: 01-02 - 02 Modelo de negócio vs Modelo de Domínio_
 - Cada contexto tem uma visão específica de um produto e o produto corresponde a uma linguagem específica de um modelo.
 
 ...
+
+## 1.4 Aquitetura
+
+### Bouded Context
+
+- Também faz parte do Design do DDD
+
+- Bounded context não é uma arquitetura, é uma estratégido do DDD
+
+Estratégia:
+
+- Isolar o subdomínio
+- Dentro do subdomínio criar os contextos
+
+Imagem
+
+### Microservices: Finalmente Bounded Context
+
+Imagem
+
+### Bounded Context e Composite UI
+
+Imagem
+
+### Evoluindo sistemas legados com Bounded Context
+
+Imagem
+
+### Arquitetura Hexagonal
+
+O melhor estilo arquitetural ele vai ser o estilo que resolverá o problema daquele contexto. Não existe bala e prata
+
+Hexagonal conversa bem com o Bounded Context
