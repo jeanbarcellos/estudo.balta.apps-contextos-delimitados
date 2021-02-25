@@ -125,3 +125,25 @@ dotnet add package BetterSpecs
 # Package Manager
 Install-Package BetterSpecs
 ```
+
+## 1.3 Modelagem Tática
+
+### Superficie da solução
+
+...
+
+### Modelo de Negócio e Modelo de Domínio
+
+_Imagem: 01-02 - 02 Modelo de negócio vs Modelo de Domínio_
+
+- Cada subdominio tem uma visão particular, ou parte da visão de um produto
+
+### Manifestação do Bolo de Lama
+
+...
+
+### Modelo de Domínio
+
+- Cada contexto tem uma visão específica de um produto e o produto corresponde a uma linguagem específica de um modelo.
+
+...
