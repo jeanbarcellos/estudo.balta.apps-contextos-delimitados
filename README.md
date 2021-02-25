@@ -260,3 +260,7 @@ Geralmente a DISTRIBUIÇÃO DE CERTIFICADOS PARA **EVENTOS** é um ponto muito c
   - (consistência transacional).
 - Modele Agregadores pequenos
 - Referencie outros agregadores por Identidade
+
+## 2.5 Shared Kernel
+
+...

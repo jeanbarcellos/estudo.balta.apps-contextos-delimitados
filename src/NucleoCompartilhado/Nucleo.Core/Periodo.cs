@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cadastro.Core.Domain.Model.Eventos
+namespace Nucleo.Core
 {
     public class Periodo
     {

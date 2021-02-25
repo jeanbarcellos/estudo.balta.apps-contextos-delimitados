@@ -1,4 +1,4 @@
-﻿namespace Cadastro.Core.Domain.Model.Organizadores
+﻿namespace Nucleo.Core
 {
     public class NomeCompleto
     {

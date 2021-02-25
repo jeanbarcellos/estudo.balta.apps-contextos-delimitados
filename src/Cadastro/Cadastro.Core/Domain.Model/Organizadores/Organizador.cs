@@ -1,4 +1,6 @@
-﻿namespace Cadastro.Core.Domain.Model.Organizadores
+﻿using Nucleo.Core;
+
+namespace Cadastro.Core.Domain.Model.Organizadores
 {
     public class Organizador
     {

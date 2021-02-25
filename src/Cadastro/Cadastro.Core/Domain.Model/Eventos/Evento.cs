@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Nucleo.Core;
+using System.Collections.Generic;
 
 namespace Cadastro.Core.Domain.Model.Eventos
 {
