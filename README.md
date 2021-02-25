@@ -212,3 +212,22 @@ Retomando a Estragétia
 ```bash
 dotnet new sln -n EventoCertificado
 ```
+
+## 2.2 Entidades
+
+_Uma entidade é uma coisa única (**única identidade**) e capaz de ser mudado de forma contínua durante um longo período de tempo (Vernon)._
+
+Geralmente a DISTRIBUIÇÃO DE CERTIFICADOS PARA EVENTOS é um ponto muito crítico: cadastro, confecção, emissão são áreas que demandam muita atenção. Falhas em algum processo de alguma dessas áreas podem comprometer o prazo de entrega destes certificados, deteriorando assim a relação entre ORGANIZAÇÃO e Participantes, bem como comprometendo a imagem do evento perante seu público futuro. Sendo assim, criar tecnologias que promovam agilidade, segurança e transparência para tal processo seria de grande valia para o setor de eventos.
+
+**IDENTIDADE ÚNICA**
+
+- **Usuário provendo identidade**
+  - posts de blog
+- **Aplicação provendo identidade**
+  - uuid guid approach
+- **Persistência gerando identidade**
+  - delegando a mecanismo de persistência:orms,sgdbs
+- **Identidade gerada por outros contextos delimitados**
+  - verificação de integridade!
+
+Como garnatir que a unicidade é preservada em todo o cíclo de vida de uma entidade?
