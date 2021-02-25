@@ -11,6 +11,7 @@ Instrutor:
 Referências:
 
 - https://balta.io/cursos/construindo-aplicacoes-em-contextos-delimitados
+- https://github.com/yanjustino/5504
 - https://www.infoq.com/br/presentations/bounded-context-e-cqrs-na-evolucao-de-aplicacoes-dotnet-legadas/
 
 <br>
@@ -183,3 +184,31 @@ Imagem
 O melhor estilo arquitetural ele vai ser o estilo que resolverá o problema daquele contexto. Não existe bala e prata
 
 Hexagonal conversa bem com o Bounded Context
+
+## 2.1 Introdução
+
+Bloco da Construção - Construindo Aplicações Baseadas em Bounded Context
+
+**Propblema Proposto**
+
+- Evento Certificado
+
+**Problemática**
+
+- Geralmente a **DISTRIBUIÇÃO DE CERTIFICADOS PARA EVENTOS** é um ponto muito crítuco: **cadastro, confecção, emissão** são áreas que demandasm muita atenção. Falhas em algum processo e de alguma dessas áreas podem compromenter o **prazo de entrega** destes certificados, deteriorando assim a relação entre **organização** e **participantes**, bem como compromentendo a imagem do evento perante seu público futuro. Sendo assim criar tecnologias que provomam **agilidade, segurança e transparência** para tal processo seria grande de valia para o setor de eventos.
+
+**Requisitos:**
+
+1. A plataforma deve permitir o cadastro de novos organizadores de eventos.
+2. A plataforma deve permitir CADASTRAR e associar ao organiador um evento: Nome, data, horário, local, lista de palestras, duração total do evento e lista de partifipantes com nome completo, RG, CPF e email
+3. A plataforma deve permitir a CONFECÇÃO de certificados para eventos. Essa confecção deve usar arquivos HTML e CSS
+4. A plataforma deve permitir a EMISSÃO de certificado para cada participante de um evento através de um site onde o mesmo possa informar algum código para imprimir ou baixar o PDF do seu certificado.
+5. A plataforma deve enviar e-mail para os participantes informando disponibilidade de certificados com o endereço, código de acesso e instruções para emissao! DEVE OBEDECER A DATA DE LIBERAÇÃO ESTIPULADA PELO ORGAIZADOR.
+6. A plataforma deve possuir um serviço para validação do certificado.
+7. A plataforma deve ter um relatório de certificados já emitidos!
+
+Retomando a Estragétia
+
+```bash
+dotnet new sln -n EventoCertificado
+```
