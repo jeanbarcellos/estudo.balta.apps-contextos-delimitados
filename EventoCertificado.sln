@@ -9,27 +9,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Confeccao", "Confeccao", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Emissao", "Emissao", "{216405B2-D526-493B-A1B0-8D5D22561DED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro.Core", "src\Cadastro\Cadastro.Core\Cadastro.Core.csproj", "{E548BC13-E32C-488C-BEAB-59FBC14A514E}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Suporte", "Suporte", "{7FBBC3D5-89CE-4156-B582-C10892BE9E55}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentidadeAcesso.Core", "src\Suporte\IdentidadeAcesso.Core\IdentidadeAcesso.Core.csproj", "{5D8A2A8D-A252-49A2-A0F9-006D24565E34}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NucleoCompartilhado", "NucleoCompartilhado", "{868449AA-A200-4BC8-BAC3-A651E2472854}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro.Core", "src\Cadastro.Core\Cadastro.Core.csproj", "{E548BC13-E32C-488C-BEAB-59FBC14A514E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro.Data", "src\Cadastro.Data\Cadastro.Data.csproj", "{C812E7CE-4C62-481B-A869-963750CA6459}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro.Testes", "src\Cadastro.Testes\Cadastro.Testes.csproj", "{CA63B555-0102-4FCF-9CA3-DBA15BC82967}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confeccao.Core", "src\Confeccao.Core\Confeccao.Core.csproj", "{F577A278-F785-4C5C-AFE4-D54637F42C33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confeccao.Data", "src\Confeccao.Data\Confeccao.Data.csproj", "{564680DA-85D5-425D-82D0-5377008A8CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confeccao.Apresentacao", "src\Confeccao.Apresentacao\Confeccao.Apresentacao.csproj", "{4165D34B-F80B-4DC6-BAC1-C3468787F88F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emissao.Core", "src\Emissao.Core\Emissao.Core.csproj", "{80B3AA63-B008-40DE-8EEE-4492AEB7A4D8}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nucleo.Core", "src\NucleoCompartilhado\Nucleo.Core\Nucleo.Core.csproj", "{E2C86CFC-2F20-4B43-B44E-B1912CF3C3FD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro.Testes", "src\Cadastro\Cadastro.Testes\Cadastro.Testes.csproj", "{CA63B555-0102-4FCF-9CA3-DBA15BC82967}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro.Data", "src\Cadastro\Cadastro.Data\Cadastro.Data.csproj", "{C812E7CE-4C62-481B-A869-963750CA6459}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confeccao.Core", "src\Confeccao\Confeccao.Core\Confeccao.Core.csproj", "{F577A278-F785-4C5C-AFE4-D54637F42C33}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Confeccao.Data", "src\Confeccao\Confeccao.Data\Confeccao.Data.csproj", "{564680DA-85D5-425D-82D0-5377008A8CA9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confeccao.Apresentacao", "src\Confeccao\Confeccao.Apresentacao\Confeccao.Apresentacao.csproj", "{4165D34B-F80B-4DC6-BAC1-C3468787F88F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emissao.Core", "src\Emissao\Emissao.Core\Emissao.Core.csproj", "{80B3AA63-B008-40DE-8EEE-4492AEB7A4D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentidadeAcesso.Core", "src\Suporte\IdentidadeAcesso.Core\IdentidadeAcesso.Core.csproj", "{5D8A2A8D-A252-49A2-A0F9-006D24565E34}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventoCertificado", "src\EventoCertificado\EventoCertificado.csproj", "{7D8F5EC2-77CB-47A1-AC3D-351D9ECACF2C}"
 EndProject
