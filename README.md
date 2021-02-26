@@ -264,3 +264,7 @@ Geralmente a DISTRIBUIÇÃO DE CERTIFICADOS PARA **EVENTOS** é um ponto muito c
 ## 2.5 Shared Kernel
 
 ...
+
+## 3.1. Organização
+
+..
