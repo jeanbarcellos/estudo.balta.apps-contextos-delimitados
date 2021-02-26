@@ -268,3 +268,7 @@ Geralmente a DISTRIBUIÇÃO DE CERTIFICADOS PARA **EVENTOS** é um ponto muito c
 ## 3.1. Organização
 
 ..
+
+## 3.2. Composição de contextos
+
+..

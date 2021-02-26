@@ -1,16 +1,16 @@
-﻿using Nucleo.Core;
+﻿using Cadastro.Core.Domain.Model.Organizadores;
+using Nucleo.Core;
 using System.Collections.Generic;
 
 namespace Cadastro.Core.Domain.Model.Eventos
 {
-    class Evento
+    public class Evento
     {
         public EventoId EventoId { get; private set; }
         public OrganizadorId OrganizadorId { get; private set; }
         public string Nome { get; set; }
         public ICollection<Participante> Participantes { get; private set; }
         public Periodo PeriodoEntregaCertificado { get; private set; }
-
 
         public Evento() { }
 

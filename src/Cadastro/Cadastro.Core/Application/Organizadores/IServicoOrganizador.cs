@@ -1,6 +1,6 @@
 ﻿using Cadastro.Core.Domain.Model.Organizadores;
 
-namespace Cadastro.Core.Application
+namespace Cadastro.Core.Application.Organizadores
 {
     public interface IServicoOrganizador
     {
